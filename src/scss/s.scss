@@ -1,37 +1,53 @@
 // ----------------------------------------
-// // ------ import config ------
+// // ------ config ------
 // ----------------------------------------
 
 @import "lib/config";
 
 // ----------------------------------------
-// ------ import custom mixins ------
+// ------ custom mixins ------
 // ----------------------------------------
 
-@import "lib/mixins";
+@import "lib/mixins/mixins";
+@import "lib/mixins/position";
 
 // ----------------------------------------
-// // --- import main kraken library ---
+// // --- library ---
 // ----------------------------------------
-@import "lib/reset";
-@import "lib/grid";
-@import "lib/typography";
-@import "lib/buttons";
-@import "lib/forms";
-@import "lib/icons";
-@import "lib/spacing";
-@import "lib/print";
+@import "lib/modules/reset";
+@import "lib/modules/grid";
+@import "lib/modules/typography";
+@import "lib/modules/buttons";
+@import "lib/modules/forms";
+@import "lib/modules/icons";
+@import "lib/modules/spacing";
+@import "lib/modules/print";
 
 // ----------------------------------------
-// // ------ import addons ------
+// // --- modules ---
+// ----------------------------------------
+
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/main";
+@import "partials/footer";
+
+// ----------------------------------------
+// // ------ addons ------
 // ----------------------------------------
 
 // @import "addons/snapshot";
 // @import "addons/tables";
-@import "lib/addons/hero";
+// @import "lib/addons/hero";
 // @import "addons/social";
 
 // ----------------------------------------
-// // ------ import _shame ------
+// // ------ vendor ------
 // ----------------------------------------
-@import "lib/shame";
+@import "vendor/_external";
+
+// ----------------------------------------
+// // ------ shame ------
+// ----------------------------------------
+@import "lib/modules/shame";
