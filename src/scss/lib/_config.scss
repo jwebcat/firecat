@@ -1,10 +1,8 @@
 /*
 
-    KRAKEN-SASS
-    converted to SCSS by @jwebcat
-    A lightweight front-end boilerplate by Chris Ferdinandi.
-    http://gomakethings.com
-
+    Firecat
+    -- Pieces from @chrisferdanandi, @csswizardry, @johnpolacek, @toddmotto and others
+    -- Compiled by @jwebcat
 
     Licensed under WTFPL.
     http://www.wtfpl.net/
@@ -30,15 +28,15 @@
 */
 
 // ----------------------------------------
-// // ------ Config for Kraken ------
+// // ------ Config ------
 // ----------------------------------------
 
 // ----------------------------------------
 // // ------ font-size ------
 // ----------------------------------------
 
-$body-font-size: 106.25%;  // approx. 17px note: if you change this you must adjust the $base-font-size;
-$base-font-size: 17px;     // for mixins that need a px value to function
+$body-font-size: 100%;  // approx. 17px note: if you change this you must adjust the $base-font-size;
+$base-font-size: 16px;     // for mixins that need a px value to function
 
 // ----------------------------------------
 // // ------ colors ------
